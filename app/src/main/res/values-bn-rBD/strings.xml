@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ভাষা পরিবর্তন পরীক্ষা</string>
+    <string name="language">English</string>
+    <string name="change_language">ভাষা পরিবর্তন করুন</string>
+    <string name="go_to_next">পরবর্তিতে যান</string>
+    <string name="second_fragment">দ্বিতীয়</string>
+    <string name="first_fragment">প্রথম</string>
+</resources>

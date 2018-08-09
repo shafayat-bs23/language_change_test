@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LanguageChangeTest</string>
+    <string name="language">বাংলা</string>
+    <string name="change_language">change language</string>
+    <string name="go_to_next">Go to next</string>
+    <string name="second_fragment">second</string>
+    <string name="first_fragment">first</string>
+</resources>
