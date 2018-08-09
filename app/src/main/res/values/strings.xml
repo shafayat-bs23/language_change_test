@@ -2,7 +2,10 @@
     <string name="app_name">LanguageChangeTest</string>
     <string name="language">বাংলা</string>
     <string name="change_language">change language</string>
-    <string name="go_to_next">Go to next</string>
+    <string name="go_to_second">Go to seccond</string>
     <string name="second_fragment">second</string>
     <string name="first_fragment">first</string>
+    <string name="go_to_third">go to third</string>
+    <string name="hello_world">hello world!</string>
+    <string name="third">Third</string>
 </resources>

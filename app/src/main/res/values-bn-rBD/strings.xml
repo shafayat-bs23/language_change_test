@@ -6,4 +6,8 @@
     <string name="go_to_next">পরবর্তিতে যান</string>
     <string name="second_fragment">দ্বিতীয়</string>
     <string name="first_fragment">প্রথম</string>
+    <string name="go_to_second">"দ্বিতীয় পৃষ্ঠায় যান "</string>
+    <string name="go_to_third">তৃতীয় পৃষ্ঠায় যান</string>
+    <string name="hello_world">ওহে বিশ্ব!</string>
+    <string name="third">তৃতীয়</string>
 </resources>

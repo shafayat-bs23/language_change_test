@@ -11,7 +11,7 @@ import android.widget.Button;
 
 public class FirstFragment extends Fragment {
 
-    Button changeLanguageButton, goToNextButton;
+    Button changeLanguageButton, goToSecondButton, goToThirdButton;
 
     @Nullable
     @Override
@@ -25,7 +25,8 @@ public class FirstFragment extends Fragment {
         getActivity().setTitle(getString(R.string.first_fragment));
 
         changeLanguageButton = getView().findViewById(R.id.languageButton);
-        goToNextButton = getView().findViewById(R.id.nextActivityButton);
+        goToSecondButton = getView().findViewById(R.id.secondFragmentButton);
+        goToThirdButton = getView().findViewById(R.id.thirdFragmentButton);
 
         changeLanguageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,10 +35,17 @@ public class FirstFragment extends Fragment {
             }
         });
 
-        goToNextButton.setOnClickListener(new View.OnClickListener() {
+        goToSecondButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getFragmentManager().beginTransaction().replace(R.id.container, new SecondFragment()).addToBackStack(null).commit();
+            }
+        });
+
+        goToThirdButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager().beginTransaction().replace(R.id.container, new ThirdFragment()).addToBackStack(null).commit();
             }
         });
 
